@@ -1,0 +1,42 @@
+{
+  "project_name": "wuhan-safety-website",
+  "description": "武汉朝闻安全技术咨询有限公司官方网站",
+  "author": "徐小夜",
+  "deployment_date": "2026-02-11",
+  "features": {
+    "responsive_design": true,
+    "mobile_friendly": true,
+    "contact_form": true,
+    "seo_optimized": true,
+    "logo_design": true
+  },
+  "services": [
+    "安全评价服务",
+    "安全应急预案",
+    "安全咨询培训",
+    "双重预防机制"
+  ],
+  "contact": {
+    "phone": "15926499297",
+    "email": "275774269@qq.com",
+    "location": "湖北省武汉市"
+  },
+  "github_pages": {
+    "enabled": true,
+    "branch": "main",
+    "source": "/",
+    "custom_domain": null,
+    "https_enforced": true
+  },
+  "deployment_steps": [
+    "1. 创建GitHub仓库: wuhan-safety-website",
+    "2. 上传所有网站文件",
+    "3. 启用GitHub Pages",
+    "4. 访问: https://[username].github.io/wuhan-safety-website/"
+  ],
+  "testing_urls": [
+    "https://[username].github.io/wuhan-safety-website/",
+    "https://[username].github.io/wuhan-safety-website/images/logo_generator.html",
+    "https://[username].github.io/wuhan-safety-website/content/关于我们.html"
+  ]
+}

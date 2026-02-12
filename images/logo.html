@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>武汉朝闻安全 - Logo设计预览</title>
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background: #f8f9fa;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .logo-preview {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px 0;
+        }
+        
+        .logo-container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+        
+        .logo-title {
+            color: #1a73e8;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .logo-svg {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+        }
+        
+        .logo-desc {
+            margin-top: 20px;
+            color: #5f6368;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+        
+        .color-palette {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .color-box {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+        }
+        
+        .primary-color { background: #1a73e8; }
+        .secondary-color { background: #34a853; }
+        .accent-color { background: #fbbc04; }
+        
+        h1 {
+            color: #202124;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #5f6368;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>武汉朝闻安全技术咨询有限公司</h1>
+    <p class="subtitle">专业安全评价服务 - Logo设计方案预览</p>
+    
+    <div class="logo-preview">
+        <!-- 方案1：专业盾牌型 -->
+        <div class="logo-container">
+            <h3 class="logo-title">方案1：专业盾牌型</h3>
+            
+            <svg class="logo-svg" viewBox="0 0 200 200">
+                <!-- 盾牌主体 -->
+                <defs>
+                    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#34a853;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                
+                <!-- 盾牌外框 -->
+                <path d="M100,30 C140,30 170,60 170,100 C170,140 140,170 100,170 C60,170 30,140 30,100 C30,60 60,30 100,30 Z" 
+                      fill="url(#shieldGradient)" stroke="#ffffff" stroke-width="4"/>
+                
+                <!-- 保护层 -->
+                <path d="M100,50 C130,50 150,70 150,100 C150,130 130,150 100,150 C70,150 50,130 50,100 C50,70 70,50 100,50 Z" 
+                      fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="5,3"/>
+                
+                <!-- 中心保护点 -->
+                <circle cx="100" cy="100" r="20" fill="#fbbc04" stroke="#ffffff" stroke-width="2"/>
+                
+                <!-- 安全符号 -->
+                <path d="M90,95 L95,105 L110,85" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            
+            <div class="color-palette">
+                <div class="color-box primary-color" title="专业蓝 #1a73e8"></div>
+                <div class="color-box secondary-color" title="安全绿 #34a853"></div>
+                <div class="color-box accent-color" title="强调黄 #fbbc04"></div>
+            </div>
+            
+            <p class="logo-desc">
+                盾牌形状象征安全保护，蓝绿渐变体现专业与安全，<br>
+                中心对勾符号代表可靠与验证，适合技术咨询行业。
+            </p>
+        </div>
+        
+        <!-- 方案2：简洁字母型 -->
+        <div class="logo-container">
+            <h3 class="logo-title">方案2：简洁字母型</h3>
+            
+            <svg class="logo-svg" viewBox="0 0 200 200">
+                <!-- W字母变形 -->
+                <defs>
+                    <linearGradient id="letterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#4285f4;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                
+                <!-- W字母形状 -->
+                <path d="M60,60 L80,120 L100,80 L120,120 L140,60" 
+                      fill="none" stroke="url(#letterGradient)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <!-- 保护圈 -->
+                <circle cx="100" cy="100" r="70" fill="none" stroke="#34a853" stroke-width="4" stroke-dasharray="10,5"/>
+                
+                <!-- 科技点 -->
+                <circle cx="70" cy="70" r="8" fill="#fbbc04"/>
+                <circle cx="100" cy="50" r="6" fill="#34a853"/>
+                <circle cx="130" cy="70" r="8" fill="#fbbc04"/>
+            </svg>
+            
+            <div class="color-palette">
+                <div class="color-box primary-color" title="专业蓝 #1a73e8"></div>
+                <div class="color-box secondary-color" title="安全绿 #34a853"></div>
+                <div class="color-box accent-color" title="强调黄 #fbbc04"></div>
+            </div>
+            
+            <p class="logo-desc">
+                W字母代表武汉，保护圈象征安全，<br>
+                科技点体现技术咨询，简洁现代，易于识别。
+            </p>
+        </div>
+        
+        <!-- 方案3：综合型 -->
+        <div class="logo-container">
+            <h3 class="logo-title">方案3：综合型</h3>
+            
+            <svg class="logo-svg" viewBox="0 0 200 200">
+                <!-- 武汉地标建筑抽象 -->
+                <defs>
+                    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:0.8" />
+                        <stop offset="50%" style="stop-color:#34a853;stop-opacity:0.8" />
+                        <stop offset="100%" style="stop-color:#1a73e8;stop-opacity:0.8" />
+                    </linearGradient>
+                </defs>
+                
+                <!-- 建筑轮廓 -->
+                <rect x="70" y="80" width="60" height="60" fill="url(#buildingGradient)" rx="5"/>
+                <rect x="80" y="60" width="40" height="20" fill="url(#buildingGradient)" rx="3"/>
+                
+                <!-- 保护盾牌 -->
+                <path d="M100,40 C130,40 160,60 160,100 C160,140 130,160 100,160 C70,160 40,140 40,100 C40,60 70,40 100,40 Z" 
+                      fill="none" stroke="#fbbc04" stroke-width="4"/>
+                
+                <!-- 安全符号 -->
+                <circle cx="100" cy="100" r="15" fill="#ffffff"/>
+                <path d="M95,100 L100,105 L105,95" fill="none" stroke="#1a73e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            
+            <div class="color-palette">
+                <div class="color-box primary-color" title="专业蓝 #1a73e8"></div>
+                <div class="color-box secondary-color" title="安全绿 #34a853"></div>
+                <div class="color-box accent-color" title="强调黄 #fbbc04"></div>
+            </div>
+            
+            <p class="logo-desc">
+                建筑轮廓代表武汉，保护盾牌象征安全，<br>
+                结合地域特色与行业特性，体现扎根武汉的专业服务。
+            </p>
+        </div>
+    </div>
+    
+    <div style="margin-top: 40px; padding: 20px; background: white; border-radius: 12px; max-width: 800px; margin-left: auto; margin-right: auto;">
+        <h3 style="color: #1a73e8; margin-bottom: 20px;">Logo使用建议</h3>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; text-align: left;">
+            <div>
+                <h4 style="color: #34a853;">应用场景</h4>
+                <ul style="color: #5f6368; line-height: 1.6;">
+                    <li>网站导航栏和页脚</li>
+                    <li>公司名片和信纸</li>
+                    <li>报告封面和演示文稿</li>
+                    <li>社交媒体头像</li>
+                    <li>宣传材料和广告</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 style="color: #34a853;">设计优势</h4>
+                <ul style="color: #5f6368; line-height: 1.6;">
+                    <li>专业形象突出</li>
+                    <li>安全行业特征明显</li>
+                    <li>易于识别和记忆</li>
+                    <li>适应多种应用场景</li>
+                    <li>与网站设计风格统一</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 style="color: #34a853;">推荐方案</h4>
+                <p style="color: #5f6368; line-height: 1.6;">
+                    <strong>方案1（盾牌型）</strong>最适合安全技术咨询行业，
+                    盾牌形状直接传达"安全保护"的核心价值，
+                    蓝绿配色专业且符合行业特点。
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div style="margin-top: 30px; color: #5f6368; font-size: 0.9rem;">
+        <p>© 2026 武汉朝闻安全技术咨询有限公司 - Logo设计方案</p>
+        <p>设计：徐小夜 | 日期：2026年2月11日</p>
+    </div>
+    
+    <script>
+        // 点击颜色框显示颜色值
+        document.querySelectorAll('.color-box').forEach(box => {
+            box.addEventListener('click', function() {
+                const color = this.style.backgroundColor;
+                const title = this.getAttribute('title');
+                alert(title + '\nRGB值: ' + color);
+            });
+        });
+    </script>
+</body>
+</html>
